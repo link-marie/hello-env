@@ -19,6 +19,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <div className="env">
+          <p>REACT_APP_CUSTOM_ENV_VAR value is "{process.env.REACT_APP_CUSTOM_ENV_VAR}"</p>
+      </div>
     </div>
   );
 }
